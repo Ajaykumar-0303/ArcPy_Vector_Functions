@@ -4,3 +4,4 @@ input="Punjab_dist.shp"
 erase= "Ludhiana.shp"
 output="Erase.shp"
 arcpy.Erase_analysis(input, erase, output, "")
+print arcpy.GetMessages()
